@@ -1,0 +1,154 @@
+<!DOCTYPE html> 
+<html> 
+ 
+<head> 
+    
+    <title>articel</title> 
+ 
+</head> 
+ 
+ 
+ 
+ 
+ 
+<body> 
+ 
+ 
+    <!DOCTYPE html>   
+    <html>   
+        <head>   
+       
+        <Title> About Sri Lanka</Title>   
+       
+        <!-- Table css -->   
+        <style>   
+            table {   
+              font-family: arial, sans-serif;   
+              border-collapse: collapse;   
+              width: 50%;   
+            }   
+               
+            td, th {   
+              border: 1px solid #0b0505;   
+              text-align: center;   
+              padding: 2px;   
+            }   
+               
+            tr:nth-child(even) {   
+              background-color: #f2b1b1;   
+            }   
+       
+            tr:hover {background-color: #D6EEEE;}   
+       
+               
+            </style>   
+       
+            <style>   
+                .cover{   
+                    width: 33.1%;   
+                    height: 150px;   
+                }   
+            </style>   
+       
+     <style>   
+       
+        h1{   
+            position: relative;   
+            top: 31px;   
+        }   
+    </style>   
+      
+    <style>  
+        .mycontainer {  
+          display: flex;}  
+      
+        .mycontainer > div {  
+         width:50%;  
+      
+        }  
+          
+      
+    </style>  
+       
+        </head>   
+       
+       
+       
+       
+        <body style="background-color: rgb(216, 218, 218);">   
+      
+            <a href="#id1">If you are visitor, click this link to creat your account</a>  
+      
+        <h1 align = "center" style="color: crimson; background-color: rgb(201, 238, 137); font-size: 300%;"> SRI LANKA </h1>   
+       
+           <div>   
+            <img class="cover" src="./aaaaaa.jpg" alt="bg pic">   
+            <img class="cover" src="./abc.jpg" alt="bg pic">   
+            <img class="cover" src="./bbbb.jpeg" alt="bg pic">   
+              
+               
+             
+          </div>   
+       
+          <h2 align ="left" style="font-family: verdana; font-size: 200%;";> Overview of Sri Lanka </h2>   
+       
+           <p title="Overview"> Sri Lanka, formerly known as <strong style="color: rgb(14, 144, 205);">Ceylon</strong>, is an island nation located in the Indian Ocean, just off the southeastern coast of India. It covers an area of approximately <i>65,610</i> square kilometers and has a population of about <i>22 million</i> people, making it one of the most densely populated countries in the world.</p>   
+              
+            <div class="mycontainer">  
+      
+            <div><img src="Sri Lanka.jpg" width="75%" height="100%">   </img> </div>  
+            <div><iframe src="https://youtube.com/embed//EN-Uz0mKqGQ?controls =1&autoplay=0"   width="75%" height="100%"></iframe></div>  
+              
+            </div>  
+              
+              
+            <!-- Topic 1 -->   
+            <h2 style="color: brown; font-family: 'Times New Roman', Times, serifS; font-size: 150%;"> History of the Sri Lanka</h2>   
+            <p> Sri Lanka's history spans over 3,000 years, with evidence of human settlement dating back approximately <u>125,000 years</u> The island has been shaped significantly by the Indian subcontinent, particularly through the arrival of Buddhism around 250 BCE, which became the predominant religion among the Sinhalese majority. The establishment of kingdoms such as Anuradhapura <i>(377 BCE – 1017 CE)</i> marked significant political and cultural developments. The island experienced various foreign influences, notably from European powers like the Portuguese, Dutch, and British from the 16th century onwards. This colonial period saw changes in governance and economic structures, leading to social tensions that culminated in a civil war from 1983 to 2009 between the Sinhalese majority and Tamil separatists</p>   
+               
+            <!-- Topic 2 -->   
+            <h2 style="color: brown; font-family: 'Times New Roman', Times, serifS; font-size: 150%;"> Economy </h2>   
+            <p>Sri Lanka's economy is diverse and has evolved from a plocated in South Asia, separated from India by the Palk Strait. It features diverse landscapes ranging from coastal plains to mountainous regions in the central highlands. The country is home to several national parks and wildlife reserves that protect its rich biodiversity5.</p>   
+       
+            <!-- Topic 7 -->   
+       
+            <h2 style="color: brown; font-family: 'Times New Roman', Times, serifS; font-size: 150%;"> Places to Visit </h2>   
+       
+            <p> Sri Lanka boasts numerous attractions - </p>   
+            <ul>   
+                <li>Anuradhapura: Ancient capital known for its well-preserved ruins.</li>   
+                <li>Sigiriya: Famous for its rock fortress and frescoes.</li>   
+                <li>Kandy: Home to the Temple of the Tooth Relic.</li>   
+                <li>Galle: A historic fortified city with colonial architecture.</li> 
+                <li>Yala National Park: Renowned for its wildlife and leopard population.</li>   
+        </ul>   
+   
+        <p>These sites attract both tourists and pilgrims alike.</p>   
+  
+  
+  
+         <p id="id1"> Fill this form for create your visitor account.</p> 
+ 
+         <form> 
+           <p>  <input placeholder="Name">         <Input placeholder="Surname"></p> 
+           <p><input placeholder="date of birth"></p> 
+           <p><input placeholder="email addrres"></p> 
+           <p><input placeholder = "password" type="password"></p> 
+           <button id="b1"> Submit </button> 
+ 
+          <p id ="a1"><input type="checkbox"> agree to terms and conditions</p>  
+         </form> 
+   
+ 
+    <script> 
+        document.getElementById("b1").onclick=function( ){ 
+ 
+                document.getElementById("a1").innerHTML="Thank you for creating you account!!!!"; 
+        } 
+ 
+ 
+ 
+    </script> 
+     
+</body> 
+</html>
